@@ -1,0 +1,141 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.9;
+    background: #f4f4f4;
+    color: #000000;
+    outline-color: w;
+}
+.background-container {
+    width: 100%;
+    height: 500px; /* Set height */
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Header */
+.main-header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0rem 0;
+    
+
+}
+
+/* Button Styling */
+.toggle-btn {
+    transition: all 0.3s ease;
+
+    background: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* General Button Styling */
+.button-link {
+    display: inline-block; /* Makes it behave like a button */
+    margin: 0; /* Remove default margin */
+    transition: all 0.3s ease;
+
+    padding: 0.5rem 1rem; /* Add padding for the button */
+    background-color: #333; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 1.25rem; /* Adjust font size to match h2 */
+    cursor: pointer; /* Change cursor to pointer for hover effect */
+}
+
+
+/* Styling for the <a> inside the button */
+.button-link a {
+    color: inherit; /* Make the link inherit text color */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure it fills the button */
+    width: 100%; /* Make it fill the button area */
+    height: 100%; /* Match button dimensions */
+}
+
+/* Hover Effect */
+.button-link:hover {
+    background-color: #4e4b4b; /* Darken background on hover */
+}
+
+/* Active Effect */
+.button-link:active {
+    background-color: #333; /* Darker shade on click */
+    transform: scale(0.98); /* Slight shrink on click */
+}
+
+
+.toggle-btn:hover {
+    background: #4e4b4b;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: none; /* Initially hidden */
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0.5rem 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.main-footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1rem;
+    margin-top: 7rem;
+    flex: 1;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
